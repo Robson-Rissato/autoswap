@@ -1,0 +1,9 @@
+[Unit]
+Description=Auto SWAP Service v1.00.01 (Bash Version)
+
+[Service]
+ExecStart=/autoswap.sh
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
